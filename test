@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secret Place Prague</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      background-color: #000;
+    }
+    header {
+      background: url('hero-image.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 1rem;
+    }
+    nav {
+      background: #111;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+    section {
+      padding: 4rem 2rem;
+    }
+    .about, .services, .contact {
+      max-width: 900px;
+      margin: auto;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Welcome to Secret Place Prague</h1>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Secret Place is a luxurious private experience in the heart of Prague, offering unforgettable moments of intimacy and relaxation.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Private Spa</li>
+      <li>Couple's Massage</li>
+      <li>Luxury Lounge</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@secretplace.cz</p>
+    <p>Phone: +420 123 456 789</p>
+    <p>Location: Prague, Czech Republic</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Secret Place Prague. All rights reserved.
+  </footer>
+</body>
+</html>
